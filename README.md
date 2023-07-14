@@ -2,7 +2,7 @@
 
 ![Landing Page Screenshot](screenshot.png)
 
-This repository contains the code for a simple HTML and CSS landing page. This project is built as a practice exercise to let me gain hands-on experience with Figma UI design file. Feel free to explore and contribute to it.
+This repository contains the code for a simple HTML and CSS landing page. This project is built as a practice exercise to let me gain hands-on experience with Figma UI design files. Feel free to explore and contribute to it.
 
 ## Demo
 
@@ -37,13 +37,13 @@ Feel free to explore the project files and make any necessary modifications to s
 
 ## File Structure
 
-- `index.html`: Main HTML file
-- `css/style.css`: CSS styles for the landing page
-- `images/`: Directory for storing images
+- `index.html` : Main HTML file
+- `css/style.css` : CSS styles for the landing page
+- `images/` : Directory for storing images
 
 ## Roadmap
 
-- Add responsive design for better mobile experience
+- Add responsive design for a better mobile experience
 - Incorporate JavaScript for interactive elements
 
 ## Contributing
