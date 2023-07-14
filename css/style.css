@@ -21,3 +21,28 @@ textarea,
 select {
     font: inherit;
 }
+
+/*Root Settings*/
+
+:root {
+    /* Primary */
+    --clr-primary-1: #1F1534;
+    --clr-primary-2: #7D7987;
+    --clr-primary-3: #458FF6;
+
+    /* Neutral */
+    --clr-neutral-1: #000000;
+    --clr-neutral-2: #FFFFFF;
+
+    /* Gradient */
+    --linear-gradient-1: linear-gradient(223deg, #67C3F3 0%, #5A98F2 100%);
+    --linear-gradient-2: linear-gradient(212deg, #67C3F3 0%, #5A98F2 100%);
+
+    /* Font Weight */
+    --light: 300;
+    --medium: 400;
+    --bold: 700;
+
+    /* Font Family */
+    --ff-primary: muli, sans-serif;
+}
