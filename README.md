@@ -37,9 +37,9 @@ Feel free to explore the project files and make any necessary modifications to s
 
 ## File Structure
 
-- index.html: Main HTML file
-- styles.css: CSS styles for the landing page
-- images/: Directory for storing images
+- `index.html`: Main HTML file
+- `css/style.css`: CSS styles for the landing page
+- `images/`: Directory for storing images
 
 ## Roadmap
 
