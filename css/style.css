@@ -46,3 +46,11 @@ select {
     /* Font Family */
     --ff-primary: muli, sans-serif;
 }
+
+/*Basic Styles*/
+
+body {
+    background: var(--clr-neutral-2);
+    font-family: var(--ff-primary);
+    min-height: 100vh;
+}
