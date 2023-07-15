@@ -54,3 +54,11 @@ body {
     font-family: var(--ff-primary);
     min-height: 100vh;
 }
+
+/*Container*/
+
+.container {
+    display: grid;
+    place-content: center;
+    margin: 3.5rem 0 0;
+}
