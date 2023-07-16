@@ -158,3 +158,91 @@ ul {
 .container__header__illustration {
     grid-area: illustration;
 }
+
+/*Services*/
+
+.container__services {
+    background: url(../images/vector-bg.svg), url(../images/dotted-bg2.svg);
+    background-repeat: no-repeat;
+    background-position: left 13.5rem, 79.88rem 34.5rem;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    margin-top: 12rem;
+}
+
+.container__services__header {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+}
+
+.container__services__header__heading {
+    color: var(--clr-neutral-1);
+    font-size: 2.25rem;
+    font-weight: var(--bold);
+    line-height: 155.556%;
+}
+
+.header__line {
+    width: 3.5rem;
+    height: 0.125rem;
+}
+
+.container__services__header__line {
+    background: var(--clr-neutral-1);
+    border-radius: 0.3125rem;
+    margin-top: 1.63rem;
+}
+
+.container__services__header__text {
+    color: var(--clr-primary-2);
+    font-size: 1.125rem;
+    font-weight: var(--light);
+    max-width: 86ch;
+    line-height: 166.667%;
+    margin-top: 2.06rem;
+}
+
+.container__services__content {
+    display: grid;
+    gap: 2.25rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 15rem;
+    margin-top: 5rem;
+}
+
+.container__services__content__card {
+    background: var(--clr-neutral-2);
+    border-radius: 1.25rem;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    padding: 3.88rem 3.25rem 2.94rem 2.31rem;
+}
+
+.container__services__content__card__heading {
+    color: var(--clr-neutral-1);
+    font-size: 1.5rem;
+    font-weight: var(--bold);
+    line-height: 233.333%;
+    margin-top: 1.21rem;
+}
+
+.container__services__content__card__text {
+    color: var(--clr-primary-2);
+    font-size: 1rem;
+    font-weight: var(--light);
+    line-height: 1.75;
+    margin-top: .04rem;
+}
+
+.container__services__btn {
+    color: var(--clr-primary-3);
+    font-size: 1.125rem;
+    font-weight: var(--bold);
+    text-align: center;
+    line-height: 333.333%;
+    border: 1.4px solid var(--clr-primary-3);
+    border-radius: 3.4375rem;
+    padding: 0.19rem 3.19rem .06rem;
+    margin-top: 4.5rem;
+}
