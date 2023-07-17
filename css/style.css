@@ -216,6 +216,8 @@ ul {
     background: var(--clr-neutral-2);
     border-radius: 1.25rem;
     box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    display: grid;
+    align-content: baseline;
     padding: 3.88rem 3.25rem 2.94rem 2.31rem;
 }
 
@@ -245,4 +247,10 @@ ul {
     border-radius: 3.4375rem;
     padding: 0.19rem 3.19rem .06rem;
     margin-top: 4.5rem;
+}
+
+/*Health Care*/
+
+.container__health-care {
+    margin-top: 13.81rem;
 }
