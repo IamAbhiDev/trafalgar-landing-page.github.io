@@ -50,7 +50,9 @@ select {
 /*Basic Styles*/
 
 body {
-    background: var(--clr-neutral-2);
+    background: url(../images/dotted-bg.svg);
+    background-repeat: no-repeat;
+    background-position: right 173.94rem;
     font-family: var(--ff-primary);
     min-height: 100vh;
 }
@@ -252,5 +254,51 @@ ul {
 /*Health Care*/
 
 .container__health-care {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 8.88rem;
+    justify-self: center;
     margin-top: 13.81rem;
+}
+
+.container__health-care__header {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    align-self: center;
+}
+
+.container__health-care__header__heading {
+    color: var(--clr-neutral-1);
+    font-size: 2.25rem;
+    font-weight: var(--bold);
+    max-width: 20ch;
+    line-height: 155.556%;
+}
+
+.container__health-care__header__line {
+    background: var(--clr-neutral-1);
+    border-radius: 0.625rem;
+    margin-top: 1.63rem;
+}
+
+.container__health-care__header__text {
+    color: var(--clr-primary-2);
+    font-size: 1.125rem;
+    font-weight: var(--light);
+    max-width: 38ch;
+    line-height: 166.667%;
+    margin-top: 1.94rem;
+}
+
+.container__health-care__header__btn {
+    color: var(--clr-primary-3);
+    font-size: 1.125rem;
+    font-weight: var(--bold);
+    text-align: center;
+    line-height: 333.333%;
+    border: 1.4px solid var(--clr-primary-3);
+    border-radius: 3.4375rem;
+    padding: 0.19rem 3.19rem .06rem;
+    margin-top: 2.5rem;
 }
