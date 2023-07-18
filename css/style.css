@@ -50,9 +50,9 @@ select {
 /*Basic Styles*/
 
 body {
-    background: url(../images/dotted-bg.svg);
+    background: url(../images/dotted-bg.svg), url(../images/dotted-bg.svg);
     background-repeat: no-repeat;
-    background-position: right 173.94rem;
+    background-position: left 10rem, right 173.94rem;
     font-family: var(--ff-primary);
     min-height: 100vh;
 }
@@ -76,18 +76,16 @@ ul {
 /*Header*/
 
 .container__header {
-    background: url(../images/dotted-bg.svg);
     background-repeat: no-repeat;
-    background-position: left 6.5rem;
-    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1.58fr;
+    grid-template-columns: 1fr 1.45fr;
     grid-template-areas:
         "nav nav"
         "content illustration"
     ;
     row-gap: 5rem;
     column-gap: 6.81rem;
+    justify-items: center;
     padding: 0 10.19rem 0 11.88rem;
 }
 
@@ -139,6 +137,7 @@ ul {
     font-size: 1.3125rem;
     font-weight: var(--light);
     line-height: 152.381%;
+    max-width: 35ch;
     margin-top: 1.56rem;
 }
 
