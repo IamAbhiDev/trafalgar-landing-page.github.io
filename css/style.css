@@ -449,3 +449,104 @@ ul {
     display: flex;
     gap: 5.6rem;
 }
+
+/*Article*/
+
+.container__article {
+    background: url(../images/dotted-bg2.svg), url(../images/vector-bg-2.svg);
+    background-repeat: no-repeat;
+    background-position: 11.74rem 7.5rem, right 6rem;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    justify-self: center;
+    margin-top: 13.88rem;
+}
+
+.container__article__header {
+    display: grid;
+    justify-items: center;
+    gap: 1.62rem;
+}
+
+.container__article__header__heading {
+    font-size: 2.25rem;
+    line-height: 155.556%;
+}
+
+.container__article__header__line {
+    background: var(--clr-neutral-1);
+    border-radius: 0.3125rem;
+}
+
+.container__article__articles {
+    display: grid;
+    gap: 2.25rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 4.94rem;
+}
+
+.container__article__articles__card {
+    background: var(--clr-neutral-2);
+    display: grid;
+    gap: 1.5rem;
+    border-radius: 1.25rem;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    overflow: hidden;
+}
+
+.container__article__articles__card__banner__img {
+    width: 100%;
+}
+
+.container__article__articles__card__content {
+    display: grid;
+    padding: 0 3.19rem 2.19rem 2.06rem;
+}
+
+.container__article__articles__card__content__heading {
+    color: var(--clr-neutral-1);
+    font-size: 1.3125rem;
+    font-weight: var(--bold);
+    max-width: 21ch;
+    line-height: 152.381%;
+}
+
+.container__article__articles__card__content__text {
+    color: var(--clr-primary-2);
+    font-size: 1rem;
+    font-weight: var(--light);
+    line-height: 1.75;
+    max-width: 28ch;
+    margin-top: .75rem;
+}
+
+.container__article__articles__card__content__btn {
+    color: #4089ED;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 164.706%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1.56rem;
+}
+
+.container__article__articles__card__content__btn__icon {
+    width: 0.88394rem;
+    height: 0.5625rem;
+}
+
+.container__article__btn {
+    color: var(--clr-primary-3);
+    font-size: 1.125rem;
+    font-weight: var(--bold);
+    width: 12.5rem;
+    height: 3.5rem;
+    border: 1.4px solid var(--clr-primary-3);
+    border-radius: 3.4375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5rem;
+}
