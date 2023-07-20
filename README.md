@@ -2,18 +2,18 @@
 
 ![Landing Page Screenshot](./screenshots/screenshot.png)
 
-This repository contains the code for a simple HTML and CSS landing page. This project is built as a practice exercise to let me gain hands-on experience with Figma UI design files. Feel free to explore and contribute to it.
+This repository contains the code for a simple HTML and CSS landing page. I built this project as a practice exercise to gain hands-on experience with Figma UI design files. The responsive design was not provided in the Design file, so as a result, the landing page isn't responsive. Feel free to explore and contribute to it.
 
 ## Demo
 
-You can view a live demo of the landing page [here](https://example.com "Demo").
+You can view a live demo of the landing page [here](https://iamabhidev.github.io/trafalgar-landing-page.github.io "Demo").
 
 ## Getting Started
 
 To get a local copy of the project, you can clone the repository using the following command:
 
 ```bash
-git clone https://github.com/IamAbhiDev/html-css-landing-page.git
+git clone https://github.com/IamAbhiDev/trafalgar-landing-page.github.io.git
 ```
 
 ## Usage
