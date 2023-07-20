@@ -565,7 +565,7 @@ ul {
 .container__footer__content {
     background: url(../images/dotted-bg4.svg), var(--linear-gradient-2);
     background-repeat: no-repeat;
-    background-position: left 20rem, top;
+    background-position: left bottom, top;
     display: grid;
     gap: 9rem;
     grid-template-columns: auto auto;
