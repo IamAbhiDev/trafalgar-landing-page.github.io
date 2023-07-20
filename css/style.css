@@ -55,7 +55,7 @@ body {
     background-position: left 10rem, right 173.94rem;
     font-family: var(--ff-primary);
     min-height: 100vh;
-    overflow: hidden;
+    overflow: auto;
 }
 
 a {
