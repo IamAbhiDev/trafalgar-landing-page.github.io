@@ -1,6 +1,6 @@
 # Trafalgar Landing Page
 
-![Landing Page Screenshot](screenshot.png)
+![Landing Page Screenshot](./screenshots/screenshot.png)
 
 This repository contains the code for a simple HTML and CSS landing page. This project is built as a practice exercise to let me gain hands-on experience with Figma UI design files. Feel free to explore and contribute to it.
 
